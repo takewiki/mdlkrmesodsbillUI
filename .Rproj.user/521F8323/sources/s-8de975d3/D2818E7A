@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1686729335958.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "D2818E7A",
+    "lastKnownWriteTime" : 1686729355,
+    "last_content_update" : 1686729355308,
+    "path" : "~/app/zzy/jhhrvsqlquery/jhhrvsrc/mdljhhrvsrcUI/R/jhhrvsrcdeptcomparison.R",
+    "project_path" : "R/jhhrvsrcdeptcomparison.R",
+    "properties" : {
+        "cursorPosition" : "16,54",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

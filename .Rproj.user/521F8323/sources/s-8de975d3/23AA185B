@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1686710391447.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "23AA185B",
+    "lastKnownWriteTime" : 1686710194,
+    "last_content_update" : 1686710194,
+    "path" : "~/app/zzy/jhhrvsqlquery/jhhrvsrc/mdljhhrvsrcUI/R/jhhrvsrcsalary.R",
+    "project_path" : "R/jhhrvsrcsalary.R",
+    "properties" : {
+        "cursorPosition" : "41,50",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

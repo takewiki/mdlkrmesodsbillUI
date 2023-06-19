@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1686729289254.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "6F0F51B0",
+    "lastKnownWriteTime" : 1686729357,
+    "last_content_update" : 1686729357354,
+    "path" : "~/app/zzy/jhhrvsqlquery/jhhrvsrc/mdljhhrvsrcUI/R/jhhrvsrcmiddleTable.R",
+    "project_path" : "R/jhhrvsrcmiddleTable.R",
+    "properties" : {
+        "cursorPosition" : "67,0",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
