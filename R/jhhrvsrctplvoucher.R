@@ -39,7 +39,7 @@ buttontplvoucherUI_left <- function() {
 
   res <- tagList(
 
-    shiny::actionButton(inputId = 'btn_view_tplvoucher' , label = '预览表单数据'),
+    shiny::actionButton(inputId = 'btn_hrv_src_view_tplvoucher' , label = '预览表单数据'),
 
 
   )
@@ -60,7 +60,7 @@ buttontplvoucherUI_left <- function() {
 #' buttonUI_right()
 buttontplvoucherUI_right <- function() {
   res <- tagList(
-    tsui::uiScrollX(tsui::mdl_dataTable(id = 'view_data_tplvoucher', label = '出口'))
+    tsui::uiScrollX(tsui::mdl_dataTable(id = 'hrv_src_view_data_tplvoucher', label = '出口'))
   )
   return(res)
 

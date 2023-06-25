@@ -39,7 +39,7 @@ buttonacctUI_left <- function() {
 
   res <- tagList(
 
-    shiny::actionButton(inputId = 'btn_view_acct' , label = '预览表单数据'),
+    shiny::actionButton(inputId = 'btn_hrv_src_view_acct' , label = '预览表单数据'),
 
 
   )
@@ -60,7 +60,7 @@ buttonacctUI_left <- function() {
 #' buttonUI_right()
 buttonacctUI_right <- function() {
   res <- tagList(
-    tsui::uiScrollX(tsui::mdl_dataTable(id = 'view_data_acct', label = '出口'))
+    tsui::uiScrollX(tsui::mdl_dataTable(id = 'hrv_src_view_data_acct', label = '出口'))
   )
   return(res)
 
