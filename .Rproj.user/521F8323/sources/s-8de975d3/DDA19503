@@ -5,13 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2293121165",
+    "hash" : "0",
     "id" : "DDA19503",
-    "lastKnownWriteTime" : 1687861743,
-    "last_content_update" : 1687861743,
-    "path" : "~/app/zzy/krmessqlquery/krmesods/mdlkrmesodsUI/DESCRIPTION",
+    "lastKnownWriteTime" : 1687923954,
+    "last_content_update" : 1687923954107,
+    "path" : "~/app/zzy/krmessqlquery/krmesodsbill/mdlkrmesodsbillUI/DESCRIPTION",
     "project_path" : "DESCRIPTION",
     "properties" : {
+        "cursorPosition" : "21,0",
+        "scrollLine" : "0"
     },
     "read_only" : false,
     "read_only_alternatives" : [

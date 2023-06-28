@@ -12,13 +12,13 @@
 #' @export
 #'
 #' @examples
-#' jhhrvodssalaryUI()
+#' jhhrvodsbillsalaryUI()
 
-krmesproductionrequisitionodsUI <- function(tabTitle ='生产领料单',
+krmesproductionrequisitionodsbillUI <- function(tabTitle ='生产领料单',
                     colTitles =c('操作区','显示区域'),
                     widthRates =c(4, 8),
-                    func_left = buttonkrmesproductionrequisitionodsUI_left,
-                    func_right =buttonkrmesproductionrequisitionodsUI_right
+                    func_left = buttonkrmesproductionrequisitionodsbillUI_left,
+                    func_right =buttonkrmesproductionrequisitionodsbillUI_right
 ) {
 
   
@@ -34,12 +34,12 @@ krmesproductionrequisitionodsUI <- function(tabTitle ='生产领料单',
 #'
 #' @examples
 #' buttonsalaryUI_left()
-buttonkrmesproductionrequisitionodsUI_left <- function() {
+buttonkrmesproductionrequisitionodsbillUI_left <- function() {
 
 
   res <- tagList(
 
-    shiny::actionButton(inputId = 'btn_krmesproductionrequisitionods_view' , label = '预览表单数据'),
+    shiny::actionButton(inputId = 'btn_krmesproductionrequisitionodsbill_view' , label = '预览表单数据'),
 
 
   )
@@ -58,9 +58,9 @@ buttonkrmesproductionrequisitionodsUI_left <- function() {
 #'
 #' @examples
 #' buttonsalaryUI_right()
-buttonkrmesproductionrequisitionodsUI_right <- function() {
+buttonkrmesproductionrequisitionodsbillUI_right <- function() {
   res <- tagList(
-    tsui::uiScrollX(tsui::mdl_dataTable(id = 'krmesproductionrequisitionods_view_data', label = '出口'))
+    tsui::uiScrollX(tsui::mdl_dataTable(id = 'krmesproductionrequisitionodsbill_view_data', label = '出口'))
   )
   return(res)
 

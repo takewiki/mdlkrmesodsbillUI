@@ -1,4 +1,4 @@
-Package: mdlkrmesodsUI
+Package: mdlkrmesodsbillUI
 Type: Package
 Title: Demo ui package for module in DMS.
 Version: 1.2.0
@@ -11,12 +11,6 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
 Collate: 
-  krmesbom.R
-  krmesdept.R
-  krmesemp.R
-  krmesflexvalues.R
-  krmesmaterial.R
-  krmesprocess.R
   krmesprocessplanning.R
   krmesprocessreport.R
   krmesprocesstransfer.R
@@ -25,5 +19,3 @@ Collate:
   krmesproductionrequisition.R
   krmesproductionreturn.R
   krmesproductionwarehousin.R
-  krmesroute.R
-  krmesstock.R

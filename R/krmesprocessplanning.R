@@ -12,13 +12,13 @@
 #' @export
 #'
 #' @examples
-#' jhhrvodsrddetailUI()
+#' jhhrvodsbillrddetailUI()
 
-krmesprocessplanningodsUI <- function(tabTitle ='工序计划',
+krmesprocessplanningodsbillUI <- function(tabTitle ='工序计划',
                     colTitles =c('操作区','显示区域'),
                     widthRates =c(4, 8),
-                    func_left = buttonkrmesprocessplanningodsUI_left,
-                    func_right =buttonkrmesprocessplanningodsUI_right
+                    func_left = buttonkrmesprocessplanningodsbillUI_left,
+                    func_right =buttonkrmesprocessplanningodsbillUI_right
 ) {
 
   
@@ -34,12 +34,12 @@ krmesprocessplanningodsUI <- function(tabTitle ='工序计划',
 #'
 #' @examples
 #' buttonUI_left()
-buttonkrmesprocessplanningodsUI_left <- function() {
+buttonkrmesprocessplanningodsbillUI_left <- function() {
 
 
   res <- tagList(
 
-    shiny::actionButton(inputId = 'btn_krmesprocessplanningods_view' , label = '预览表单数据'),
+    shiny::actionButton(inputId = 'btn_krmesprocessplanningodsbill_view' , label = '预览表单数据'),
 
 
   )
@@ -58,9 +58,9 @@ buttonkrmesprocessplanningodsUI_left <- function() {
 #'
 #' @examples
 #' buttonUI_right()
-buttonkrmesprocessplanningodsUI_right <- function() {
+buttonkrmesprocessplanningodsbillUI_right <- function() {
   res <- tagList(
-    tsui::uiScrollX(tsui::mdl_dataTable(id = 'krmesprocessplanningods_view_data', label = '出口'))
+    tsui::uiScrollX(tsui::mdl_dataTable(id = 'krmesprocessplanningodsbill_view_data', label = '出口'))
   )
   return(res)
 
