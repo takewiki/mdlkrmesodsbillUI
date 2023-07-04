@@ -38,8 +38,15 @@ buttonkrmesproductionorderodsbillUI_left <- function() {
 
 
   res <- tagList(
+    
+    tsui::mdl_dateRange(id = 'dr_krmesproductionorderodsbill',label = '单据日期',startDate = Sys.Date()-30,endDate = Sys.Date()),
+    
 
-    shiny::actionButton(inputId = 'btn_krmesproductionorderodsbill_view' , label = '预览表单数据'),
+    shiny::actionButton(inputId = 'btn_krmesproductionorderodsbill_view' , label = '查询'),
+    
+    tsui::mdl_download_button(id = 'dl_krmesproductionorderodsbill',label = '下载')
+    
+    
 
 
   )

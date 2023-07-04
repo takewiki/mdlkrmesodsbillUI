@@ -38,8 +38,13 @@ buttonkrmesproductionreturnodsbillUI_left <- function() {
 
 
   res <- tagList(
+    
+    tsui::mdl_dateRange(id = 'dr_krmesproductionreturnodsbill',label = '单据日期',startDate = Sys.Date()-30,endDate = Sys.Date()),
 
-    shiny::actionButton(inputId = 'btn_krmesproductionreturnodsbill_view' , label = '预览表单数据'),
+    shiny::actionButton(inputId = 'btn_krmesproductionreturnodsbill_view' , label = '查询'),
+    
+    tsui::mdl_download_button(id = 'dl_krmesproductionreturnodsbill',label = '下载')
+    
 
 
   )

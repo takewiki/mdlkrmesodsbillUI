@@ -39,9 +39,12 @@ buttonkrmesproductionwarehousinodsbillUI_left <- function() {
 
   res <- tagList(
     
-    shiny::actionButton(inputId = 'btn_krmesproductionwarehousinodsbill_view' , label = '预览表单数据'),
+    tsui::mdl_dateRange(id = 'dr_krmesproductionwarehousinodsbill',label = '单据日期',startDate = Sys.Date()-30,endDate = Sys.Date()),
+    
+    
+    shiny::actionButton(inputId = 'btn_krmesproductionwarehousinodsbill_view' , label = '查询'),
 
-
+    tsui::mdl_download_button(id = 'dl_krmesproductionwarehousinodsbill',label = '下载')
   )
   return(res)
 
